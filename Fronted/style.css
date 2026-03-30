@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+#Navbar {
+    background-color: rgba(11, 17, 32, 0.96);
+    position: static;
+
+}
+
+.navbar .nav-link {
+    color: #7A8FAF !important;
+}
+
+.navbar .nav-link:hover {
+    color: #F5A623 !important;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;   
+    gap: 10px;     
+
+}
+
+#nav-ghost {
+    background-color: #00000000;
+    color: whitesmoke;
+    padding: 8px 20px;
+    border-radius: 7px;
+    font-size: 13px;
+    cursor: pointer;
+    font-family: 'DM Sans', sans-serif;
+    transition: all .2s;
+    text-decoration: none;
+    border: 1px solid rgba(220, 230, 255, 0.15);
+
+    &:hover{
+        color: #F5A623;
+        border: 1px solid #F5A623;
+        transition: 0.3s;
+    }
+}
+
+#nav-glow {
+    background-color: #F5A623;
+    color: rgba(11, 17, 32, 0.96);
+    border: none;
+    padding: 9px 22px;
+    border-radius: 7px;
+    font-size: 13px;
+    font-weight: bolder;
+    cursor: pointer;
+    font-family: 'DM Sans', sans-serif;
+    transition: background .2s;
+    text-decoration: none;
+}
+
+@media (max-width: 991px) {
+    .nav-right a {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.glow{
+    color: #F5A623;
+}
+
+.navbar-brands{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 5px 0px;
+    font-size: 20px;
+}
