@@ -5,6 +5,7 @@
 #Navbar {
     background-color: rgba(11, 17, 32, 0.96);
     position: static;
+    border-bottom: 1px solid #7A8FAF;
 
 }
 
@@ -43,7 +44,7 @@
 }
 
 #nav-glow {
-    background-color: #F5A623;
+      background: linear-gradient(135deg, #facc15, #f59e0b);
     color: rgba(11, 17, 32, 0.96);
     border: none;
     padding: 9px 22px;
