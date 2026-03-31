@@ -73,3 +73,34 @@
     padding: 5px 0px;
     font-size: 20px;
 }
+
+/* Learn skills Section  */
+
+:root {
+  --navy: #0B1120;
+  --navy2: #111827;
+  --navy3: #1a2540;
+  --navy4: #1e2d4a;
+
+  --amber: #F5A623;
+  --amber2: #e8941a;
+
+  --white: #ffffff;
+  --text: #dde4f0;
+  --muted: #7a8faf;
+}
+
+#butn {
+  border: 1px solid var(--navy3);
+  color: var(--text);
+}
+
+#butn:hover {
+ color: var(--amber);
+ border: 1px solid var(--amber);
+  
+}
+
+#hh1 {
+  font-family: 'Playfair Display',serif;
+}
