@@ -107,10 +107,6 @@
 }
 
 /* scroll- container */
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-}
 
 .scroll {
     max-width: 95%;
