@@ -202,3 +202,41 @@ body {
 .scroll-content:hover {
     animation-play-state: paused;
 }
+
+/* Courses Section */
+
+#courses-content h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(26px, 3vw, 40px);
+    color: var(--white);
+    letter-spacing: -.6px;
+    line-height: 1.15;
+    margin-bottom: 10px;
+}
+
+#courses-content p {
+    font-size: 15.5px;
+    color: var(--muted);
+    line-height: 1.7;
+    font-weight: 300;
+}
+
+.courses-card {
+    border: 1px solid transparent;
+    transition: 0.3s;
+}
+
+.courses-card:hover {
+    border: 1px solid var(--amber);
+    transform: translateY(-5px);
+}
+
+#courses-button {
+    border: 1px solid var(--navy3);
+    color: var(--text);
+}
+
+#courses-button:hover {
+    border: 1px solid var(--amber);
+    color: var(--amber);
+}
