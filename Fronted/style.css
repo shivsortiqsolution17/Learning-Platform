@@ -292,6 +292,8 @@
 #courses-button {
     border: 1px solid var(--navy3);
     color: var(--text);
+    margin-bottom: 28px;
+    margin-top: 12px;
 }
 
 #courses-button:hover {
