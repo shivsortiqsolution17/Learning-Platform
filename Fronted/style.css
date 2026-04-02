@@ -109,9 +109,14 @@
 /* scroll- container */
 
 .scroll {
-    max-width: 95%;
-    margin: auto;
+    /* max-width: 100%; */
+    /* margin: auto; */
+    margin-top: 10px;
     background-color: #0b1a2b;
+}
+
+.scroll-banner {
+    font-family: 'Courier New', Courier, monospace;
 }
 
 
@@ -152,15 +157,68 @@
     animation-play-state: paused;
 }
 
-body {
+/* body {
     margin: 0;
     font-family: Arial, sans-serif;
-}
+} */
 
 /* Outer container */
 .scroll {
-    max-width: 95%;
-    margin: auto;
+    /* max-width: 100%; */
+    /* margin: auto; */
+    background-color: #0b1a2b;
+}
+
+/* Visible area */
+.scroll-container {
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 15px 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Moving track */
+.scroll-content {
+    display: inline-block;
+    white-space: nowrap;
+    animation: scroll 20s linear infinite;
+}
+
+/* Text items */
+.scroll-content span {
+    display: inline-block;
+    margin: 0 40px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* Infinite animation */
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+/* Pause on hover */
+.scroll-container:hover.scroll-content {
+    animation-play-state: paused;
+}
+
+/* body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+} */
+
+/* Outer container */
+.scroll {
+    /* max-width: 95%; */
+    /* margin: auto; */
+    /* margin-top: 30px; */
     background-color: #0b1a2b;
 }
 
