@@ -349,9 +349,9 @@
     background: var(--amber);
     color: var(--navy);
     border: none;
-    padding: 14px 31px;
+    padding: 13px 32px;
     border-radius: 7px;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 500;
     cursor: pointer;
     font-family: 'DM Sans', sans-serif;
