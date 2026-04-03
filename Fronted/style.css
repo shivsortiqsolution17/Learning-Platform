@@ -108,17 +108,17 @@
     /* scroll- container */
        body {
             margin: 0;
-            font-family: Arial, sans-serif;
+            /* font-family: Arial, sans-serif; */
         }
         .scroll{
-          max-width: 95%;
+          max-width: 100%;
           margin: auto;
-          background-color: #0b1a2b;
+            background-color: rgba(11, 17, 32, 0.96);
         }
 
 
         .scroll-container {
-            background-color: #0b1a2b;
+             background-color: rgba(11, 17, 32, 0.96);
             overflow: hidden;
             white-space: nowrap;
             padding: 15px 0;
@@ -154,12 +154,12 @@
         }  
           body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    /* font-family: Arial, sans-serif; */
 }
 
 /* Outer container */
 .scroll {
-    max-width: 95%;
+    max-width: 100%;
     margin: auto;
     background-color: #0b1a2b;
 }
