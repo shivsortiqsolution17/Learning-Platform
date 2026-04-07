@@ -10,7 +10,7 @@
 }
 
 .navbar .nav-link {
-    color: #7A8FAF !important;
+    color: var(--text) !important;
 }
 
 .navbar .nav-link:hover {
@@ -402,7 +402,7 @@
 }
 
 #team-card p {
-    color: var(--muted);
+    color: var(--text);
 }
 
 .hover-card {
