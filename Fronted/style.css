@@ -5,7 +5,7 @@
 #Navbar {
     background-color: rgba(11, 17, 32, 0.96);
     border-bottom: 1px solid #7A8FAF;
-    position: sticky;
+
 
 }
 
@@ -14,7 +14,7 @@
 }
 
 .navbar .nav-link:hover {
-    color: #F5A623 !important;
+    color: #d0d5e8 !important;
 }
 
 .nav-right {
@@ -253,6 +253,7 @@
     letter-spacing: -.6px;
     line-height: 1.15;
     margin-bottom: 10px;
+
 }
 
 #courses-content p {
@@ -263,7 +264,7 @@
 }
 
 .courses-card {
-    border: 1px solid transparent;
+    border: 1px solid var(--muted);
     transition: 0.3s;
 }
 
@@ -861,4 +862,60 @@
         gap: 10px;
         text-align: center;
     }
+}
+
+/* Courses section  */
+
+.our-cources .container-fluid {
+    background: var(--navy);
+}
+
+#grad1 {
+    height: 270px;
+    background-image: linear-gradient(to bottom right, #0B1120, #1e2d4a);
+}
+
+.yellow-line {
+    font-size: 11px;
+    color: var(--amber);
+    font-weight: 500;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.our-cources h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(32px, 4vw, 50px);
+    color: var(--white);
+    letter-spacing: -1px;
+    margin-bottom: 12px;
+
+}
+
+.our-cources p {
+    font-size: 14.5px;
+    color: var(--text);
+    line-height: 1.7;
+    font-weight: 300;
+}
+
+.filter-btn {
+    padding: 8px 18px;
+    border-radius: 50px;
+    border: 1px solid #2a3a5f;
+    background: transparent;
+    color: #9fb3d1;
+    transition: 0.3s;
+}
+
+.filter-btn:hover {
+    background: #1e2a47;
+    color: #fff;
+}
+
+.filter-btn.active {
+    border: 1px solid #f5a623;
+    color: #f5a623;
+    background: rgba(245, 166, 35, 0.1);
 }
