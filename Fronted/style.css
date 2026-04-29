@@ -14,7 +14,7 @@
 }
 
 .navbar .nav-link:hover {
-    color: #d0d5e8 !important;
+    color: var(--amber) !important;
 }
 
 .nav-right {
