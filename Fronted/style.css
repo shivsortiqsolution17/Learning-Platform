@@ -1139,3 +1139,99 @@
     font-family: 'DM Sans', sans-serif';
 
 }
+
+/* About us - Our story */
+
+.our-story {
+    background-color: var(--navy);
+    min-height: 480px;
+}
+
+.story-img {
+    width: 100%;
+    height: 100%;
+    min-height: 320px;
+    object-fit: cover;
+    display: block;
+}
+
+.story-content {
+    padding: 56px 48px;
+}
+
+.label {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.18em;
+    color: var(--amber);
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.story-heading {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+    font-weight: 700;
+    color: var(--white);
+    line-height: 1.2;
+    margin-bottom: 24px;
+}
+
+.story-body {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.97rem;
+    color: var(--muted);
+    line-height: 1.75;
+    margin-bottom: 16px;
+}
+
+.btn-gold {
+    background-color: var(--amber);
+    color: #1a1000;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 600;
+    font-size: 0.95rem;
+    padding: 14px 30px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 12px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.btn-gold:hover {
+    background-color: var(--amber2);
+    color: #fff;
+}
+
+.stats {
+  background-color: #081625;
+  padding: 40px 0;
+}
+
+.stat-item {
+  padding: 20px;
+}
+
+.stat-item h2 {
+  color: #f5a623;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.stat-item p {
+  color: #9bb3c9;
+}
+
+
+@media (max-width: 767px) {
+    .story-content {
+        padding: 36px 24px;
+    }
+
+    .story-img {
+        min-height: 260px;
+    }
+}
