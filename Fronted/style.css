@@ -25,7 +25,7 @@
 }
 
 #nav-ghost {
-    background-color: #00000000;
+    background: linear-gradient(135deg, #7c3aed, #3b82f6);
     color: whitesmoke;
     padding: 8px 20px;
     border-radius: 7px;
@@ -37,24 +37,9 @@
     border: 1px solid rgba(220, 230, 255, 0.15);
 
     &:hover {
-        color: #F5A623;
-        border: 1px solid #F5A623;
-        transition: 0.3s;
+        transform: translateY(-2px);
+        box-shadow: 0 10px 20px rgba(124, 58, 237, .3);
     }
-}
-
-#nav-glow {
-    background: linear-gradient(135deg, #facc15, #f59e0b);
-    color: rgba(11, 17, 32, 0.96);
-    border: none;
-    padding: 9px 22px;
-    border-radius: 7px;
-    font-size: 13px;
-    font-weight: bolder;
-    cursor: pointer;
-    font-family: 'DM Sans', sans-serif;
-    transition: background .2s;
-    text-decoration: none;
 }
 
 @media (max-width: 991px) {
@@ -1424,35 +1409,9 @@
 body {
     min-height: 100vh;
     background: linear-gradient(135deg, #0f172a, #111827, #1e293b);
-    overflow-x: hidden;
-    position: relative;
 }
 
 /* BACKGROUND GLOW */
-body::before {
-    content: "";
-    position: absolute;
-    width: 400px;
-    height: 400px;
-    background: #7c3aed;
-    filter: blur(150px);
-    top: -100px;
-    left: -100px;
-    opacity: .4;
-}
-
-body::after {
-    content: "";
-    position: absolute;
-    width: 350px;
-    height: 350px;
-    background: #06b6d4;
-    filter: blur(150px);
-    bottom: -100px;
-    right: -100px;
-    opacity: .4;
-}
-
 .auth-wrapper {
     min-height: 100vh;
     display: flex;
@@ -1530,30 +1489,6 @@ body::after {
     color: white;
 }
 
-.tabs {
-    display: flex;
-    background: rgba(255, 255, 255, 0.05);
-    border-radius: 15px;
-    padding: 6px;
-    margin-bottom: 40px;
-}
-
-.tabs button {
-    flex: 1;
-    border: none;
-    background: transparent;
-    padding: 12px;
-    border-radius: 10px;
-    color: #cbd5e1;
-    font-weight: 600;
-    transition: .3s;
-}
-
-.tabs button.active {
-    background: linear-gradient(135deg, #7c3aed, #3b82f6);
-    color: white;
-}
-
 .form-title {
     font-size: 32px;
     font-weight: 700;
@@ -1615,26 +1550,6 @@ body::after {
     box-shadow: 0 10px 20px rgba(124, 58, 237, .3);
 }
 
-.social-login {
-    display: flex;
-    gap: 15px;
-    margin-top: 25px;
-}
-
-.social-btn {
-    flex: 1;
-    height: 50px;
-    border-radius: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.08);
-    background: rgba(255, 255, 255, 0.05);
-    color: white;
-    transition: .3s;
-}
-
-.social-btn:hover {
-    background: rgba(255, 255, 255, 0.1);
-}
-
 .extra {
     display: flex;
     justify-content: space-between;
@@ -1693,4 +1608,107 @@ body::after {
     color: var(--white);
     margin-bottom: 48px;
     line-height: 1.15;
+}
+
+/* Contact */
+#Contact-card1 {
+    background-color: var(--navy4);
+    color: white;
+    border: 1px solid var(--muted);
+    border-radius: 30px;
+    transition: 0.3s;
+
+    &:hover {
+        transform: translateY(-5px);
+        box-shadow: 5px 5px 15px 5px rgba(124, 58, 237, .3);
+    }
+}
+
+.Right-info {
+    color: white;
+}
+
+.social-icon {
+    display: flex;
+    gap: 15px;
+    font-size: 22px;
+    padding: 6px 2px;
+    text-decoration: none;
+}
+
+.contact-form {
+    background-color: var(--navy3);
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+.contact-form .form-label {
+    font-weight: 600;
+    margin-bottom: 8px;
+
+}
+
+.contact-form .form-control {
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    padding: 10px 15px;
+}
+
+.contact-form textarea.form-control {
+    height: auto;
+    resize: none;
+}
+
+.contact-form .form-control:focus {
+    box-shadow: none;
+    border-color: #0d6efd;
+}
+
+.contact-btn {
+    background: linear-gradient(135deg, #7c3aed, #3b82f6);
+    color: white;
+    border-radius: 30px;
+    transition: 0.3s;
+
+    &:hover {
+        box-shadow: 5px 5px 15px 5px rgba(124, 58, 237, .3);
+        transform: translateY(-3px);
+    }
+}
+
+#facebook:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+
+#instagram:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+    color: crimson;
+}
+
+#twitter:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+    color: white;
+}
+
+#linkedin:hover {
+    transition: 0.3s;
+    transform: translateY(-5px);
+    color: white;
+}
+
+#youtube:hover {
+    transition: 0.3s;
+    transform: translateY(-5px);
+    color: red;
+}
+
+#whatapp:hover {
+    transition: 0.3s;
+    transform: translateY(-5px);
+    color: green;
 }
