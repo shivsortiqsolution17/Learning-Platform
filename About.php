@@ -9,7 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
@@ -21,7 +21,7 @@
 
     <nav class="navbar navbar-expand-lg  text-center p-3" id="Navbar">
         <div class="container">
-            <img src="../assets/ChatGPT Image Mar 30, 2026, 06_15_46 PM.png" class="img-fluid"
+            <img src="assets/images/ChatGPT Image Mar 30, 2026, 06_15_46 PM.png" class="img-fluid"
                 style="width: 50px; height: 50px;" alt="#">
             <a class="navbar-brands" href="learn"> <span class="glow">Code</span> Academix</a>
 
@@ -35,24 +35,23 @@
             <div class="collapse navbar-collapse" id="collapsenav">
                 <ul class="navbar-nav mx-auto text-center gap-5 fs-italic">
                     <li class="nav-item">
-                        <a class="nav-link" href="../Main file/index.html">Home</a>
+                        <a class="nav-link" href="index.php">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../Main file/Courses.html">Courses</a>
+                        <a class="nav-link" href="Courses.php">Courses</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../Main file/Blog.html">Blog</a>
+                        <a class="nav-link" href="Blog.php">Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../Main file/About.html">About </a>
+                        <a class="nav-link" href="About.php">About </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../Main file/Contact.html">Contact</a>
+                        <a class="nav-link" href="Contact.php">Contact</a>
                     </li>
                 </ul>
                 <div class="nav-right">
-                    <a id="nav-ghost" href="../Main file/Login.html">Log In </a>
-
+                    <a id="nav-ghost" href="auth/Login.php">Log To Dashboard </a>
                 </div>
             </div>
         </div>
@@ -68,7 +67,7 @@
 
                 <!-- Left: Image -->
                 <div class="col-lg-6 col-md-6 mt-5">
-                    <img src="../assets/photo-1522071820081-009f0129c71cggg.jpg" alt="Students collaborating on laptops"
+                    <img src="assets/images/photo-1522071820081-009f0129c71cggg.jpg" alt="Students collaborating on laptops"
                         class="story-img" />
                 </div>
 
@@ -183,7 +182,7 @@
                 <div class="card-container col-lg-3 col-md-6">
                     <div class="card">
                         <div class="imbBx">
-                            <img src="../assets/person-m-9.png" alt="">
+                            <img src="assets/images/person-m-9.png" alt="">
                         </div>
 
                         <div class="content">
@@ -210,7 +209,7 @@
                 <div class="card-container col-lg-3 col-md-6">
                     <div class="card">
                         <div class="imbBx">
-                            <img src="../assets/person-m-11.png" alt="">
+                            <img src="assets/images/person-m-11.png" alt="">
                         </div>
 
                         <div class="content">
@@ -236,7 +235,7 @@
                 <div class="card-container col-lg-3 col-md-6">
                     <div class="card">
                         <div class="imbBx">
-                            <img src="../assets/person-f-12.png" alt="">
+                            <img src="assets/images/person-f-12.png" alt="">
                         </div>
 
                         <div class="content">
@@ -263,7 +262,7 @@
                 <div class="card-container col-lg-3 col-md-6">
                     <div class="card">
                         <div class="imbBx">
-                            <img src="../assets/person-m-6.png" alt="">
+                            <img src="assets/images/person-m-6.png" alt="">
                         </div>
 
                         <div class="content">

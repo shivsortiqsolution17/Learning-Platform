@@ -9,7 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
@@ -19,9 +19,9 @@
 
     <!-- NavBar  -->
 
-    <nav class="navbar navbar-expand-lg  text-center p-3 " id="Navbar">
+    <nav class="navbar navbar-expand-lg  text-center p-3" id="Navbar">
         <div class="container">
-            <img src="../assets/ChatGPT Image Mar 30, 2026, 06_15_46 PM.png" class="img-fluid"
+            <img src="assets/images/ChatGPT Image Mar 30, 2026, 06_15_46 PM.png" class="img-fluid"
                 style="width: 50px; height: 50px;" alt="#">
             <a class="navbar-brands" href="learn"> <span class="glow">Code</span> Academix</a>
 
@@ -35,24 +35,24 @@
             <div class="collapse navbar-collapse" id="collapsenav">
                 <ul class="navbar-nav mx-auto text-center gap-5 fs-italic">
                     <li class="nav-item">
-                        <a class="nav-link" href="../Main file/index.html">Home</a>
+                        <a class="nav-link" href="index.php">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../Main file/Courses.html">Courses</a>
+                        <a class="nav-link" href="Courses.php">Courses</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../Main file/Blog.html">Blog</a>
+                        <a class="nav-link" href="Blog.php">Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../Main file/About.html">About </a>
+                        <a class="nav-link" href="About.php">About </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../Main file/Contact.html">Contact</a>
+                        <a class="nav-link" href="Contact.php">Contact</a>
                     </li>
                 </ul>
                 <div class="nav-right">
-                   <a id="nav-ghost" href="../Main file/Login.html">Log To Dashboard </a>
-                   
+                    <a id="nav-ghost" href="auth/Login.php">Log To Dashboard </a>
+                </div>
             </div>
         </div>
     </nav>
@@ -113,7 +113,7 @@
                     <div class="h-100 d-flex flex-column rounded-4 overflow-hidden courses-card"
                         style="background: var(--navy);">
 
-                        <img src="../assets/photo-1593720213428-28a5b9e94613.jpeg" class="img-fluid"
+                        <img src="assets/images/photo-1593720213428-28a5b9e94613.jpeg" class="img-fluid"
                             style="height:200px; object-fit:cover;">
 
                         <div class="p-4 d-flex flex-column h-100">
@@ -160,7 +160,7 @@
                     <div class="h-100 d-flex flex-column rounded-4 overflow-hidden courses-card"
                         style="background: var(--navy);">
 
-                        <img src="../assets/photo-1677442135703-1787eea5ce01.jpeg" class="img-fluid"
+                        <img src="assets/images/photo-1677442135703-1787eea5ce01.jpeg" class="img-fluid"
                             style="height:200px; object-fit:cover;">
 
                         <div class="p-4 d-flex flex-column h-100">
@@ -208,7 +208,7 @@
                     <div class="h-100 d-flex flex-column rounded-4 overflow-hidden courses-card"
                         style="background: var(--navy);">
 
-                        <img src="../assets/photo-1626785774573-4b799315345d.jpeg" class="img-fluid"
+                        <img src="assets/images/photo-1626785774573-4b799315345d.jpeg" class="img-fluid"
                             style="height:200px; object-fit:cover;">
 
                         <div class="p-4 d-flex flex-column h-100">
@@ -256,7 +256,7 @@
                     <div class="h-100 d-flex flex-column rounded-4 overflow-hidden courses-card"
                         style="background: var(--navy);">
 
-                        <img src="../assets/photo-1552664730-d307ca884978.jpeg" class="img-fluid"
+                        <img src="assets/images/photo-1552664730-d307ca884978.jpeg" class="img-fluid"
                             style="height:200px; object-fit:cover;">
 
                         <div class="p-4 d-flex flex-column h-100">
@@ -272,7 +272,7 @@
                                 </h5>
 
                                 <div class="d-flex align-items-center gap-2 mt-3">
-                                    <img src="../assets/photo-1500648767791-00dcc994a43e.jpeg" class="rounded-circle"
+                                    <img src="assets/images/photo-1500648767791-00dcc994a43e.jpeg" class="rounded-circle"
                                         width="30" height="30" style="object-fit: cover;">
                                     <small style="color: var(--muted);">
                                         Ravi Joshi · 28 lessons
@@ -305,7 +305,7 @@
                     <div class="h-100 d-flex flex-column rounded-4 overflow-hidden courses-card"
                         style="background: var(--navy);">
 
-                        <img src="../assets/photo-1551288049-bebda4e38f71.jpeg" class="img-fluid"
+                        <img src="assets/images/photo-1551288049-bebda4e38f71.jpeg" class="img-fluid"
                             style="height:200px; object-fit:cover;">
 
                         <div class="p-4 d-flex flex-column h-100">
@@ -321,7 +321,7 @@
                                 </h5>
 
                                 <div class="d-flex align-items-center gap-2 mt-3">
-                                    <img src="../assets/photo-1438761681033-6461ffad8d80.jpeg" class="rounded-circle"
+                                    <img src="assets/images/photo-1438761681033-6461ffad8d80.jpeg" class="rounded-circle"
                                         width="30" height="30" style="object-fit: cover;">
                                     <small style="color: var(--muted);">
                                         Sana Ali · 44 lessons
@@ -353,7 +353,7 @@
                     <div class="h-100 d-flex flex-column rounded-4 overflow-hidden courses-card"
                         style="background: var(--navy);">
 
-                        <img src="../assets/photo-1451187580459-43490279c0fa.jpeg" class="img-fluid"
+                        <img src="assets/images/photo-1451187580459-43490279c0fa.jpeg" class="img-fluid"
                             style="height:200px; object-fit:cover;">
 
                         <div class="p-4 d-flex flex-column h-100">
@@ -369,7 +369,7 @@
                                 </h5>
 
                                 <div class="d-flex align-items-center gap-2 mt-3">
-                                    <img src="../assets/photo-1472099645785-5658abf4ff4e.jpeg" class="rounded-circle"
+                                    <img src="assets/images/photo-1472099645785-5658abf4ff4e.jpeg" class="rounded-circle"
                                         width="30" height="30" style="object-fit: cover;">
                                     <small style="color: var(--muted);">
                                         Vikram Singh · 52 lessons
@@ -401,7 +401,7 @@
                     <div class="h-100 d-flex flex-column rounded-4 overflow-hidden courses-card"
                         style="background: var(--navy);">
 
-                        <img src="../assets/photo-1555066931-4365d14bab8c.jpeg" class="img-fluid"
+                        <img src="assets/images/photo-1555066931-4365d14bab8c.jpeg" class="img-fluid"
                             style="height:200px; object-fit:cover;">
 
                         <div class="p-4 d-flex flex-column h-100">
@@ -417,7 +417,7 @@
                                 </h5>
 
                                 <div class="d-flex align-items-center gap-2 mt-3">
-                                    <img src="../assets/photo-1507003211169-0a1dd7228f2d.jpeg" class="rounded-circle"
+                                    <img src="assets/images/photo-1507003211169-0a1dd7228f2d.jpeg" class="rounded-circle"
                                         width="30" height="30" style="object-fit: cover;">
                                     <small style="color: var(--muted);">
                                         Arjun Kapoor · 38 lessons
@@ -449,7 +449,7 @@
                     <div class="h-100 d-flex flex-column rounded-4 overflow-hidden courses-card"
                         style="background: var(--navy);">
 
-                        <img src="../assets/photo-1655720828018-edd2daec9349.jpeg" class="img-fluid"
+                        <img src="assets/images/photo-1655720828018-edd2daec9349.jpeg" class="img-fluid"
                             style="height:200px; object-fit:cover;">
 
                         <div class="p-4 d-flex flex-column h-100">
@@ -465,7 +465,7 @@
                                 </h5>
 
                                 <div class="d-flex align-items-center gap-2 mt-3">
-                                    <img src="../assets/photo-1494790108377-be9c29b29330.jpeg" class="rounded-circle"
+                                    <img src="assets/images/photo-1494790108377-be9c29b29330.jpeg" class="rounded-circle"
                                         width="30" height="30" style="object-fit: cover;">
                                     <small style="color: var(--muted);">
                                         Dr. Neha Sharma · 32 lessons
@@ -497,7 +497,7 @@
                     <div class="h-100 d-flex flex-column rounded-4 overflow-hidden courses-card"
                         style="background: var(--navy);">
 
-                        <img src="../assets/photo-1609921212029-bb5a28e60960.jpeg" class="img-fluid"
+                        <img src="assets/images/photo-1609921212029-bb5a28e60960.jpeg" class="img-fluid"
                             style="height:200px; object-fit:cover;">
 
                         <div class="p-4 d-flex flex-column h-100">
@@ -514,7 +514,7 @@
                                 </h5>
 
                                 <div class="d-flex align-items-center gap-2 mt-3">
-                                    <img src="../assets/photo-1580489944761-15a19d654956.jpeg" class="rounded-circle"
+                                    <img src="assets/images/photo-1580489944761-15a19d654956.jpeg" class="rounded-circle"
                                         width="30" height="30" style="object-fit: cover;">
                                     <small style="color: var(--muted);">
                                         Priya Mehta · 24 lessons

@@ -10,7 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
@@ -19,9 +19,11 @@
 
 <body style="background-color: var(--navy);">
 
+<!-- navbar -->
+
     <nav class="navbar navbar-expand-lg  text-center p-3" id="Navbar">
         <div class="container">
-            <img src="../assets/ChatGPT Image Mar 30, 2026, 06_15_46 PM.png" class="img-fluid"
+            <img src="assets/images/ChatGPT Image Mar 30, 2026, 06_15_46 PM.png" class="img-fluid"
                 style="width: 50px; height: 50px;" alt="#">
             <a class="navbar-brands" href="learn"> <span class="glow">Code</span> Academix</a>
 
@@ -35,27 +37,28 @@
             <div class="collapse navbar-collapse" id="collapsenav">
                 <ul class="navbar-nav mx-auto text-center gap-5 fs-italic">
                     <li class="nav-item">
-                        <a class="nav-link" href="../Main file/index.html">Home</a>
+                        <a class="nav-link" href="index.php">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../Main file/Courses.html">Courses</a>
+                        <a class="nav-link" href="Courses.php">Courses</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../Main file/Blog.html">Blog</a>
+                        <a class="nav-link" href="Blog.php">Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../Main file/About.html">About </a>
+                        <a class="nav-link" href="About.php">About </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../Main file/Contact.html">Contact</a>
+                        <a class="nav-link" href="Contact.php">Contact</a>
                     </li>
                 </ul>
                 <div class="nav-right">
-                    <a id="nav-ghost" href="../Main file/Login.html">Log To Dashboard </a>
+                    <a id="nav-ghost" href="auth/Login.php">Log To Dashboard </a>
                 </div>
             </div>
         </div>
     </nav>
+
 
 
     <!-- Blog Heading Line  -->
@@ -77,7 +80,7 @@
                     <div class="h-100 d-flex flex-column rounded-4 overflow-hidden courses-card"
                         style="background: var(--navy2);">
 
-                        <img src="../assets/photo-1461749280684-dccba630e2f6.jpeg" class="img-fluid"
+                        <img src="assets/images/photo-1461749280684-dccba630e2f6.jpeg" class="img-fluid"
                             style="height:200px; object-fit:cover;">
 
                         <div class="p-4 d-flex flex-column h-100">
@@ -99,7 +102,7 @@
                                 </p>
 
                                 <div class="d-flex align-items-center gap-2 mt-3">
-                                    <img src="../assets/photo-1438761681033-6461ffad8d80.jpeg" class="rounded-circle"
+                                    <img src="assets/images/photo-1438761681033-6461ffad8d80.jpeg" class="rounded-circle"
                                         width="30" height="30">
                                     <small style="color: var(--muted);">
                                         Shreya Rao ·
@@ -123,7 +126,7 @@
 
                         <!-- Left Image -->
                         <div class="col-md-4">
-                            <img src="../assets/photo-1620712943543-bcc4688e7485.jpeg" class="img-fluid card-img"
+                            <img src="assets/images/photo-1620712943543-bcc4688e7485.jpeg" class="img-fluid card-img"
                                 alt="AI Image">
                         </div>
 
@@ -142,7 +145,7 @@
                             </div>
 
                             <div class="meta">
-                                <img class="img-fluid" src="../assets/photo-1507003211169-0a1dd7228f2d.jpeg"
+                                <img class="img-fluid" src="assets/images/photo-1507003211169-0a1dd7228f2d.jpeg"
                                     alt="author">
                                 <span>Arjun Kapoor</span>
                                 <span>•</span>
@@ -163,7 +166,7 @@
 
                         <!-- Left Image -->
                         <div class="col-md-4">
-                            <img src="../assets/photo-1561070791-2526d30994b5.jpeg" class="img-fluid card-img"
+                            <img src="assets/images/photo-1561070791-2526d30994b5.jpeg" class="img-fluid card-img"
                                 alt="AI Image">
                         </div>
 
@@ -181,7 +184,7 @@
                             </div>
 
                             <div class="meta">
-                                <img src="../assets/photo-1580489944761-15a19d654956.jpeg" alt="author">
+                                <img src="assets/images/photo-1580489944761-15a19d654956.jpeg" alt="author">
                                 <span>Priya Mehta</span>
                                 <span>•</span>
                                 <span>March 18</span>
@@ -201,7 +204,7 @@
 
                         <!-- Left Image -->
                         <div class="col-md-4">
-                            <img src="../assets/photo-1551288049-bebda4e38f71.jpeg" class="img-fluid card-img"
+                            <img src="assets/images/photo-1551288049-bebda4e38f71.jpeg" class="img-fluid card-img"
                                 alt="AI Image">
                         </div>
 
@@ -219,7 +222,7 @@
                             </div>
 
                             <div class="meta">
-                                <img src="../assets/photo-1580489944761-15a19d654956.jpeg" alt="author">
+                                <img src="assets/images/photo-1580489944761-15a19d654956.jpeg" alt="author">
                                 <span>Sana Ali</span>
                                 <span>•</span>
                                 <span>March 10</span>
@@ -285,7 +288,7 @@
                         <!-- Card 4  -->
 
                         <div class="blog-guide">
-                            <img src="../assets/photo-1515378791036-0648a3ef77b2.jpeg" alt="">
+                            <img src="assets/images/photo-1515378791036-0648a3ef77b2.jpeg" alt="">
                             <div class="blog-guide-title">
                                 <h5>Study smarter, not harder</h5>
                                 <p> Download our free guide: 10 science-backed learning techniques.</p>
